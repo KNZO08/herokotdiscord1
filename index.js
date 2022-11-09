@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 const config = require("./config.json");
 const prefix = config.prefix;
-const botname = "GalackGen";
+const botname = "BotGen";
 const prefix1 = "+";
 var fs = require("fs");
 var lineReader = require("line-reader");
@@ -16,26 +16,26 @@ const chalk = require('chalk');
 
   bot.on('ready', msg => {
   console.log("");                                   
-  console.log((chalk.cyan(`                                            #####                                      #####                `)));
-  console.log((chalk.cyan(`                                           #     #   ##   #        ##    ####  #    # #     # ###### #    # `)));
-  console.log((chalk.cyan(`                                           #        #  #  #       #  #  #    # #   #  #       #      ##   # `)));
-  console.log((chalk.cyan(`                                           #  #### #    # #      #    # #      ####   #  #### #####  # #  # `)));
-  console.log((chalk.cyan(`                                           #     # ###### #      ###### #      #  #   #     # #      #  # # `)));
-  console.log((chalk.cyan(`                                           #     # #    # #      #    # #    # #   #  #     # #      #   ## `)));
-  console.log((chalk.cyan(`                                            #####  #    # ###### #    #  ####  #    #  #####  ###### #    # `)));
+  console.log((chalk.cyan(``);                                        
+  console.log((chalk.cyan(``);                                 
+  console.log((chalk.cyan(``);                                      
+  console.log((chalk.cyan(``);                                       
+  console.log((chalk.cyan(``);                                          
+  console.log((chalk.cyan(``);                                         
+  console.log((chalk.cyan(``);                                            
   console.log("");                                  
   console.log((chalk.yellow(`                                                               Crée par GalackQSM#2556 !`)));  
   console.log((chalk.yellow(`                                                                © 2020 GalackQSM, Inc.`))); 
   console.log("");                                   
-  console.log((chalk.red(`                                                         Discord: https://discord.gg/6czZmmtczp`)));   
-  console.log((chalk.red(`                                                       Twitter: https://twitter.com/Galack_QSM`)));   
-  console.log((chalk.red(`                                                        Github: https://github.com/GalackQSM`)));   
-  console.log((chalk.red(`                                                        Youtube: https://youtube.com/GalackQSM`)));   
+  console.log((chalk.red(`                                                         Discord: `)));   
+  console.log((chalk.red(`                                                       Twitter: `)));   
+  console.log((chalk.red(`                                                        Github: `)));   
+  console.log((chalk.red(`                                                        Youtube: `)));   
   console.log("");                                  
 
   console.log(`Statistiques globales : \n\nLe bot a un total de ${bot.guilds.cache.size} serveurs. \nPour un total de ${bot.users.cache.size} membres.`)
   console.log("Connecté en tant que " + bot.user.id + " | Prefix : " + prefix1 + " | Nombre de Serveurs "+ bot.guilds.cache.size +" | Nombres de salons "+ bot.channels.cache.size +" | Utilisateur totaux "+ bot.users.cache.size +" | Nombre d'emojis totaux "+ bot.emojis.cache.size +'');
-  bot.user.setActivity("+help - GalackGen");
+  bot.user.setActivity("+help - P4X");
 });
 
 bot.on("message", message => {
@@ -67,13 +67,13 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://i.imgur.com/Bl8zjHy.png",
+                            "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
                         text: "Développé par P4X"
                     },
-                    image: {url:"https://i.imgur.com/XuVrWQh.png"},
+                    image: {https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
                     author: {
                         name: botname + " - générateur de compte",
-                        url: "https://discord.gg/6czZmmtczp",
+                        url: "pas encore",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -96,16 +96,16 @@ bot.on("message", message => {
                                     color: 0xff033d,
                                     timestamp: new Date(),
                                     footer: {
-                                        icon_url: "https://i.imgur.com/Bl8zjHy.png",
-                                        text: "Développé par GalackQSM#0895"
+                                        icon_url: "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
+                                        text: "Développé par P4X"
                                     },
                                     image: {
                                         url:
-                                            "https://i.imgur.com/X1QIYyS.gif"
+                                            "https://avatars.githubusercontent.com/u/63721918?s=96&v=4"
                                     },
                                     author: {
                                         name: botname + " - générateur de compte",
-                                        url: "https://discord.gg/6czZmmtczp",
+                                        url: "https://avatars.githubusercontent.com/u/63721918?s=96&v=4p",
                                         icon_url: bot.displayAvatarURL
                                     },
                                     fields: []
@@ -130,13 +130,13 @@ bot.on("message", message => {
                             timestamp: new Date(),
                             footer: {
                                 icon_url:
-                                    "https://i.imgur.com/Bl8zjHy.png",
-                                text: "Développé par GalackQSM#2556"
+                                    "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
+                                text: "Développé par P4X"
                             },
-                            image: {url:"https://i.imgur.com/XuVrWQh.png"},
+                            image: {url:"https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
                             author: {
                                      name: botname + " - générateur de compte",
-                                     url: "https://discord.gg/6czZmmtczp",
+                                     url: "PAS encore",
                                 icon_url: bot.displayAvatarURL
                             },
                             fields: []
@@ -156,13 +156,13 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://i.imgur.com/Bl8zjHy.png",
-                        text: "Développé par GalackQSM#2556"
+                            "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
+                        text: "Développé par P4X"
                     },
-                    image: {url:"https://i.imgur.com/XuVrWQh.png"},
+                    image: {url:"https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
                     author: {
                          name: botname + " - générateur de compte",
-                         url: "https://discord.gg/6czZmmtczp",
+                         url: "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -175,12 +175,12 @@ bot.on("message", message => {
                 const embed = {
                     color: 0xff033d,
                     title: botname + ' - générateur de compte',
-                    url: 'https://discord.gg/6czZmmtczp',
+                    url: 'https://avatars.githubusercontent.com/u/63721918?s=96&v=4',
                     author: {
                         name: 'Liste des commandes',
-                        url: 'https://discord.gg/6czZmmtczp',
+                        url: 'pas encore',
                     },
-                    image: {url:"https://i.imgur.com/XuVrWQh.png"},
+                    image: {url:"https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
 
                     description: '**Ceci est une liste de toutes les commandes**',
                     fields: [
@@ -207,8 +207,8 @@ bot.on("message", message => {
                     ],
                     timestamp: new Date(),
                     footer: {
-                        text: 'Développé par GalackQSM#2556',
-                        icon_url: 'https://i.imgur.com/Bl8zjHy.png',
+                        text: 'Développé par P4X',
+                        icon_url: 'https://avatars.githubusercontent.com/u/63721918?s=96&v=4',
                     },
                 };
                 message.channel.send({ embed });
@@ -234,13 +234,13 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://i.imgur.com/Bl8zjHy.png",
-                        text: "Développé par GalackQSM#2556"
+                            "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
+                        text: "Développé par P4X"
                     },
-                    image: {url:"https://i.imgur.com/XuVrWQh.png"},
+                    image: {url:"https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
                     author: {
                         name: botname + " - générateur de compte",
-                        url: "https://discord.gg/6czZmmtczp",
+                        url: "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -257,7 +257,7 @@ bot.on("message", message => {
             let messageArray = message.content.split(" ");
             let args = messageArray.slice(1);
             const filePath = __dirname + "/comptes/" + args[0] + ".txt";
-            fs.writeFile(filePath, 'GalackQSM:GalackQSM', function (err) {
+            fs.writeFile(filePath, 'P4X,P4X', function (err) {
                 if (err) throw err;
                 const embed = {
                     title: "Service créé!",
@@ -266,13 +266,13 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://i.imgur.com/Bl8zjHy.png",
-                        text: "Développé par GalackQSM#2556"
+                            "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
+                        text: "Développé par P4X"
                     },
-                    image: {url:"https://i.imgur.com/XuVrWQh.png"},
+                    image: {url:"https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
                     author: {
                         name: botname + " - générateur de compte",
-                        url: "https://discord.gg/6czZmmtczp",
+                        url: "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -288,13 +288,13 @@ bot.on("message", message => {
                 timestamp: new Date(),
                 footer: {
                     icon_url:
-                        "https://i.imgur.com/Bl8zjHy.png",
-                    text: "Développé par GalackQSM#2556"
+                        "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
+                    text: "Développé par P4X"
                 },
-                 image: {url:"https://i.imgur.com/XuVrWQh.png"},
+                 image: {url:"https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
                 author: {
                     name: botname + " - générateur de compte ",
-                    url: "https://discord.gg/6czZmmtczp",
+                    url: "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
                     icon_url: bot.displayAvatarURL
                 },
                 fields: []
