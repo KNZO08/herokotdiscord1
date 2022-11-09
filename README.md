@@ -1,6 +1,6 @@
 
 
-Gen est un bot Discord de génération de compte codé en JavaScript a par  KNZO08
+Gen est un bot Discord de génération de compte codé en JavaScript a par  KNZO08 (P4X)
 
 N'hésitez pas à ajouter une étoile ⭐ au référentiel pour promouvoir le projet!
 
