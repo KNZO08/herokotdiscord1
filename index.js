@@ -151,7 +151,7 @@ bot.on("message", message => {
             if (command === "stats") {
                 const embed = {
                     title: "Stats de " + botname,
-                    description: "Nombre total d'utilisateurs: `" + bot.users.cache.size + " membres`\nNombre total de salon: `" + bot.channels.cache.size+ " salons`\nNombre total d'émoji: `" + bot.emojis.cache.size+ " émojis`\nNombre total de serveur: `" + bot.guilds.cache.size+ " serveur(s)`\nCrée par GalackQSM#0895",
+                    description: "Nombre total d'utilisateurs: `" + bot.users.cache.size + " membres`\nNombre total de salon: `" + bot.channels.cache.size+ " salons`\nNombre total d'émoji: `" + bot.emojis.cache.size+ " émojis`\nNombre total de serveur: `" + bot.guilds.cache.size+ " serveur(s)`\nCrée par P4X",
                     color: 0xff033d,
                     timestamp: new Date(),
                     footer: {
