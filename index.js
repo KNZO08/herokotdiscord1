@@ -16,26 +16,26 @@ const chalk = require('chalk');
 
   bot.on('ready', msg => {
   console.log("");                                   
-  console.log((chalk.cyan(``);                                        
-  console.log((chalk.cyan(``);                                 
-  console.log((chalk.cyan(``);                                      
-  console.log((chalk.cyan(``);                                       
-  console.log((chalk.cyan(``);                                          
-  console.log((chalk.cyan(``);                                         
-  console.log((chalk.cyan(``);                                            
+  console.log((chalk.cyan(`                                                   #####                `)));
+  console.log((chalk.cyan(`                                                  #     # ###### #    # `)));
+  console.log((chalk.cyan(`                                                  #       #      ##   # `)));
+  console.log((chalk.cyan(`                                                  #  #### #####  # #  # `)));
+  console.log((chalk.cyan(`                                                  #     # #      #  # # `)));
+  console.log((chalk.cyan(`                                                  #     # #      #   ## `)));
+  console.log((chalk.cyan(`                                                   #####  ###### #    # `)));
   console.log("");                                  
   console.log((chalk.yellow(`                                                               Crée par P4X !`)));  
-  console.log((chalk.yellow(`                                                                © 2020 P4X, Inc.`))); 
+  console.log((chalk.yellow(`                                                                 P4X, Inc.`))); 
   console.log("");                                   
-  console.log((chalk.red(`                                                         Discord: `)));   
-  console.log((chalk.red(`                                                       Twitter: `)));   
-  console.log((chalk.red(`                                                        Github: `)));   
-  console.log((chalk.red(`                                                        Youtube: `)));   
+  console.log((chalk.red(`                                                         Discord: P4X`)));   
+  console.log((chalk.red(`                                                       Twitter: Pas de Twiter`)));   
+  console.log((chalk.red(`                                                        Github: https://github.com/KNZO08`)));   
+  console.log((chalk.red(`                                                        Youtube: pas encore de yt`)));   
   console.log("");                                  
 
   console.log(`Statistiques globales : \n\nLe bot a un total de ${bot.guilds.cache.size} serveurs. \nPour un total de ${bot.users.cache.size} membres.`)
   console.log("Connecté en tant que " + bot.user.id + " | Prefix : " + prefix1 + " | Nombre de Serveurs "+ bot.guilds.cache.size +" | Nombres de salons "+ bot.channels.cache.size +" | Utilisateur totaux "+ bot.users.cache.size +" | Nombre d'emojis totaux "+ bot.emojis.cache.size +'');
-  bot.user.setActivity("+help - P4X");
+  bot.user.setActivity("+help -Bot");
 });
 
 bot.on("message", message => {
@@ -67,13 +67,13 @@ bot.on("message", message => {
                     timestamp: new Date(),
                     footer: {
                         icon_url:
-                            "https://avatars.githubusercontent.com/u/63721918?s=96&v=4",
+                            "https://i.imgur.com/Bl8zjHy.png",
                         text: "Développé par P4X"
                     },
-                    image: {https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
+                    image: {url:"https://avatars.githubusercontent.com/u/63721918?s=96&v=4"},
                     author: {
                         name: botname + " - générateur de compte",
-                        url: "pas encore",
+                        url: "pas de discord",
                         icon_url: bot.displayAvatarURL
                     },
                     fields: []
@@ -315,8 +315,8 @@ bot.on("message", message => {
             message.channel.send("@everyone\n● Restock de compte: **" + args[0] + "**\n● Nombre de compte restock: **" + args[1] + " compte(s)**\n● Restock par: " + "<@" + message.author.id +">");
             }
         }
-    }
-});
+    
+
 
 bot.login(config.token);
 
